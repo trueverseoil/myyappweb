@@ -20,13 +20,14 @@ import {
   MousePointer2,
   Bell,
   Search,
-  Plus,
+  Plus, 
   Briefcase,
   Globe,
   Video,
   User,
   Store,
-  Megaphone
+  Megaphone,
+  Rocket
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { VisitorCounter } from '../components/VisitorCounter';
@@ -543,16 +544,9 @@ export const Home: React.FC = () => {
                       
                       {/* Logo Section */}
                       <div className="relative mb-8 text-center flex flex-col items-center">
-                          {/* Butterfly/Logo Icon Recreated */}
+                          {/* Rocket Logo Icon */}
                           <div className="w-24 h-24 rounded-[28px] bg-gradient-to-br from-[#3b82f6] to-[#d946ef] flex items-center justify-center shadow-xl shadow-blue-500/20 mb-4 transition-transform hover:rotate-3">
-                              <div className="w-14 h-14 relative">
-                                  {/* Simple CSS shape resembling the butterfly logo */}
-                                  <div className="absolute top-0 left-0 w-8 h-8 border-4 border-white rounded-full"></div>
-                                  <div className="absolute bottom-0 right-0 w-8 h-8 border-4 border-white rounded-tr-3xl rounded-bl-3xl"></div>
-                                  <div className="absolute inset-0 flex items-center justify-center">
-                                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                                  </div>
-                              </div>
+                              <Rocket className="h-14 w-14 text-white" />
                           </div>
                           
                           {/* WIRAL Text Title */}
