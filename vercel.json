@@ -1,0 +1,6 @@
+{
+  "installCommand": "npm install --prefix myyappweb-main",
+  "buildCommand": "npm run build --prefix myyappweb-main",
+  "outputDirectory": "myyappweb-main/dist",
+  "framework": "vite"
+}
